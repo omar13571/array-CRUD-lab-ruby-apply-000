@@ -3,11 +3,11 @@ def create_an_empty_array
 end
 
 def create_an_array
-["Obi_wan", "Anakin", "Darth Vader", "Luke Skywalker"]
+star_wars = ["Obi_wan", "Anakin", "Darth Vader", "Luke Skywalker"]
 end
 
 def add_element_to_end_of_array(array, element)
-array << "Yoda"
+star_wars << "Yoda"
 end
 
 def add_element_to_start_of_array(array, element)
